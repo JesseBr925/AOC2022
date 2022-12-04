@@ -10,7 +10,6 @@ total = 0
 #now to iterate and calculate our total score.
 for j in range(len(input)):
     val = set(input[j])
-    print(val)
     #since there are only 12 possible outcomes to a "match"
     #i've decided to use a simple if tree, is also efficient.
     #we'll have to add a bit more logic in now with the update
